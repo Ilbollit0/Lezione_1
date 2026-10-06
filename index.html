@@ -1,57 +1,149 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lezione W1 D1</title>
 </head>
+
 <body>
-    <header> 
-    <h1> Gabriel Bollati </h1>
-    <p>
-       <b>Studente Full Stack</b> -- corso Epicode 2026
-    </p>
+    <header>
+        <h1> Gabriel Bollati </h1>
+        <p>
+            <b>Studente Full Stack</b> -- corso Epicode 2026
+        </p>
     </header>
-    <nav> 
-        <ul>
-            <li> <a href="javascript:void(0)"><b>Chi sono</b></a> </li>
-            <li> <a href="javascript:void(0)"><b>Competenze</b></a> </li>
-            <li> <a href="javascript:void(0)"><b>Progetti</b></a> </li>
-            <li> <a href="javascript:void(0)"><b>Contatti</b></a> </li>
-        </ul>
-    </nav>
-    <h2>Chi sono</h2>
-    <p>
-        Mi chiamo Gabriel Bollati e sto imparando a programmare. Studio sviluppo web con <b>Epicode</b> eogni giorno aggiungo qualcosa di nuov a questa pagina. Mi piace lavorare in gruppo, leggere documentazione tecnica e capire come funzionano le cose.
-    </p>
-    <p>
-        Vivo a Torino. Ho una formazione precedente in Audiovsivo e Multimediale e ora sto cambiando settore. Cerco un primo ruolo come sviluppatore frontend
-    </p>
-    <h2>Competenze</h2>
-    <p>
-        Le tecnologie che vedo durante le prime settimanne del corso.
-    </p>
-    <ul>
-        <li>HTML -- struttura delle pagine</li>
-        <li>CSS -- Stile e impaginazione </li>
-        <li>Git GitHub -- Versionamento del codice</li>
-        <li>Visual Studio Code -- Editor di lavoro</li>
-    </ul>
-    <h2>Progetti</h2>
-    <p> I lavori fatti durante la prima settimana di corso.</p>
-    <h2> Pagina ricetta</h2>
-    <p> Una pagina con titolo, ingredienti e procedura. Esercizio di markup semantico applicato a un contenuto reale</p>
-    <a href="https://github.com/Ilbollit0?tab=repositories"><b>Vedi su GitHub</b></a>
-    <h2> Card di presentazione </h2>
-    <p> un biglietto digitale, ruolo e link ai social. Esercizio di sintesi sulla struttura HTML</p>
-    <a href="https://github.com/Ilbollit0"><b>Vedi su GitHub</b></a>
-    <footer>
-        <h2> Contatti </h2>
-        <p> Sono presente su queste piattafiorme professionali, dove puoi seguire i miei progetti professionali.</p>
-        <P> Profilo GitHub: <a href="https://github.com/Ilbollit0"><b>Ilbollit0</b></a></P>
-        <P> Profilo LinkedIn: <a href="https://www.linkedin.com/in/gabriel-bollati/"><b>Gabriel Bollati</b></a></P>
-        <p> &#169; 2026 Gabriel Bollati.</p>
-    </footer>
+    <main>
+        <nav>
+            <ul>
+                <li> <a href="javascript:void(0)"><b>Chi sono</b></a> </li>
+                <li> <a href="javascript:void(0)"><b>Competenze</b></a> </li>
+                <li> <a href="javascript:void(0)"><b>Esperienze</b></a> </li>
+                <li> <a href="javascript:void(0)"><b>Progetti</b></a> </li>
+                <li> <a href="javascript:void(0)"><b>Contatti</b></a> </li>
+            </ul>
+        </nav>
+        <section class="chisono">
+            <h2>Chi sono</h2>
+            <img src="https://www.competentedigitale.ro/html/imagini/red-flower.jpg" alt="fiorerosso" width="200"
+                height="200">
+            <p>
+                Mi chiamo Gabriel Bollati e sto imparando a programmare. Studio sviluppo web con <b>Epicode</b> eogni
+                giorno aggiungo qualcosa di nuov a questa pagina. Mi piace lavorare in gruppo, leggere documentazione
+                tecnica e capire come funzionano le cose.
+            </p>
+            <p>
+                Vivo a Torino. Ho una formazione precedente in Audiovsivo e Multimediale e ora sto cambiando settore.
+                Cerco un primo ruolo come sviluppatore frontend
+            </p>
+            <a href="index.html"><b>torna su</b></a>
+        </section>
+        <section class="competenze">
+            <h2>Competenze</h2>
+            <p>
+                Le tecnologie che vedo durante le prime settimanne del corso.
+            </p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+                <li>Visual Studio Code</li>
+            </ul>
+            <a href="index.html"><b>torna su</b></a>
+        </section class="esperienze">
+        <h2>Esperienze</h2>
+        <p> Un riepilogo del mio percoerso formativo e lavorativo recente. </p>
+        <table>
+            <tr>
+                <td>Anno</td>
+                <td>Ruolo</td>
+                <td>Azienda/Scuola</td>
+            </tr>
+            <tr>
+                <td>2026</td>
+                <td>Studente Full Stack</td>
+                <td>Epicode</td>
+            </tr>
+            <tr>
+                <td>2023-2025</td>
+                <td>Montatore Palchi</td>
+                <td>Torino</td>
+            </tr>
+            <tr>
+                <td>2018-2024</td>
+                <td>Studente liceale</td>
+                <td>Primo liceo Artistico</td>
+            </tr>
+        </table>
+        <a href="index.html"><b>torna su</b></a>
+        </section>
+        <section class="progetti">
+            <h2>Progetti</h2>
+            <p> I lavori fatti durante la prima settimana di corso.</p>
+        </section>
+        <a href="index.html"><b>torna su</b></a>
+        <section class="pagina-ricetta">
+            <h2> Pagina ricetta</h2>
+            <p> Una pagina con titolo, ingredienti e procedura. Esercizio di markup semantico applicato a un contenuto
+                reale
+            </p>
+        </section>
+        <a href="index.html"><b>torna su</b></a>
+        <section class="curriculum">
+            <a href="https://github.com/Ilbollit0?tab=repositories"><b>Vedi su GitHub</b></a>
+            <h2> Card di presentazione </h2>
+            <p> un biglietto digitale, ruolo e link ai social. Esercizio di sintesi sulla struttura HTML</p>
+            <a href="https://github.com/Ilbollit0"><b>Vedi su GitHub</b></a>
+        </section>
+    </main>
+    <a href="index.html"><b>torna su</b></a>
+    <section>
+        <fieldset>
+            <legend> invia una proposta</legend>
+            <h2> Contattami </h2>
+            <p> compila il form per scirvermi ti rispondo entro 24h</p>
+            <div>
+                <label for="nomeCompleto">Nome</label>
+                <input type="text" placeholder="Mario Sturniolo" id="nomeCompleto" title="Inserisci il nome completo"
+                    name="nomeCompleto" />
+            </div>
+            <br>
+            <div>
+                <label for="userEmail">Email</label>
+                <input type="email" placeholder="mario@esempio.com" id="userEmail" title="Inserisci l'email"
+                    name="userEmail" />
+            </div>
+            <br>
+
+            <div>
+                <label for="motivazione">Motivo del contatto</label>
+                <select id="motivazione" name="motivazione">
+                    <option value=""></option>
+                    <option value="proposta">Proposta di lavoro</option>
+                    <option value="lavoro">Lavoro</option>
+                    <option value="collaborazione">Collaborazione</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="dataDiRisposta">Data di risposta</label>
+                <input type="date" id="dataDiRisposta" name="dataDiRisposta" />
+            </div>
+            <div>
+                <textarea name="address" id="address" rows="3" cols="80"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="privacy" name="privacy" value="privacy"/>
+                <label for="privacy">Accetto la privacy policy</label>
+            </div>
+        </fieldset>
+        <form action="grazie.html" method="get">
+            <button type="submit">Invia</button>
+        </form>
+    </section>
+    <p> &#169; 2026 Gabriel Bollati.</p>
 
 </body>
+
 </html>
