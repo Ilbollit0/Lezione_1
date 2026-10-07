@@ -61,6 +61,10 @@ input:focus{
     color:#232323
 }
 
+.motivazione{
+    background-color: rgb(218, 227, 235);
+}
+
 
 input, textarea{
     background-color: rgb(218, 227, 235);
