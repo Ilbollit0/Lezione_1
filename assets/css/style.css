@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fafafa;
+}
+
+header{
+    background-image: url("../image/climber.jpg");
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar p{
+    color:#F44A4A
+}
+
+h1{
+    color:white
+
+}
+
+ h2{
+    color:#1F3D7A
+}
+
+.testoCorsivo p {
+    font-style: italic;
+}
+
+section b{
+    color:#1F3D7A
+}
+
+
+ a:hover{
+    color: hsl(22, 30%, 93%);
+ }
+nav, a{
+    color: hsl(67, 98%, 26%);
+}
+
+.competenze li:first-child{
+    font-weight: bold;
+}
+
+.competenze li:nth-child(odd){
+    background-color: rgba(218, 227, 235, 0.4);
+}
+
+thead{
+    font-weight: bold;
+}
+
+.pagina-ricetta{
+    background-color:rgb(218, 227, 235);
+}
+
+input:focus{
+    color:#232323
+}
+
+
+input, textarea{
+    background-color: rgb(218, 227, 235);
+}
+
+button:hover{
+    background-color: hsl(220, 60%, 45%);
+}
+
+button{
+    color: white;
+    background-color: hsl(220, 60%, 30%)
+}
+
+
+footer{
+    background-color: #172136;
+}
+
+footer p{
+    color:white
+}
