@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-
 body {
   font-family: "Roboto", Arial, sans-serif;
   line-height: 1.6;
@@ -8,7 +7,7 @@ body {
 }
 
 .chisono {
-  background: #fff;
+  background: 57#fff;
   border: 1px solid #e5e7eb;
   border-radius: 5px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
@@ -37,7 +36,7 @@ body {
   max-width: 900px;
 }
 
-.boxprogetti {
+.progetti {
   background: #fff;
   border: 1px solid #e5e7eb;
   border-radius: 5px;
@@ -47,7 +46,7 @@ body {
   max-width: 900px;
 }
 
-.boxcontatti {
+.contatti {
   background: #fff;
   border: 1px solid #e5e7eb;
   border-radius: 5px;
@@ -87,8 +86,15 @@ nav li {
 header {
   background-image: url("../image/climber.jpg");
   background-size: cover;
-  text-align: center;
   padding: 0;
+  background-position: center;
+  text-align: center;
+  line-height: 2.4;
+  padding: 60px 20px 40px;
+  border-bottom: 4px solid hsl(45, 90%, 60%);
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 0 2px 4px rgba(226, 17, 17, 0.2);
 }
 
 .navbar p {
@@ -112,6 +118,7 @@ h2::before {
   content: "-";
 }
 
+
 .testoCorsivo p {
   font-style: italic;
 }
@@ -130,7 +137,7 @@ a:hover {
 }
 nav,
 a {
-  color: hsl(67, 98%, 26%);
+  color: hsl(41, 87%, 47%);
 }
 
 .competenze li:first-child {
@@ -175,15 +182,29 @@ label {
 }
 
 button:hover {
-  background-color: hsl(222, 14%, 76%);
+  color: hsl(45, 90%, 80%);
+  background-color: hsl(220, 60%, 45%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 button {
-  color: rgb(0, 0, 0);
+  background-color: hsl(220, 60%, 30%);
+  font-weight: bold;
+  width: 30%;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white;
 }
 
 footer {
-  background-color: #172136;
+  background-color: hsl(220, 40%, 15%);
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 2.4;
+  padding: 30px 20px;
 }
 
 footer p {
